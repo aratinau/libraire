@@ -6,7 +6,7 @@
 /*   By: aratinau <aratinau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 15:37:15 by aratinau          #+#    #+#             */
-/*   Updated: 2015/02/16 21:25:00 by aratinau         ###   ########.fr       */
+/*   Updated: 2015/06/11 14:50:37 by aratinau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,5 +82,8 @@ void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void(*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
+void				clear_screen(void);
+void				cl_color(char *s, char *opt);
+void				cl_help(void);
 
 #endif

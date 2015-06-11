@@ -6,7 +6,7 @@
 #    By: aratinau <aratinau@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/04 13:21:39 by aratinau          #+#    #+#              #
-#    Updated: 2015/02/16 21:25:26 by aratinau         ###   ########.fr        #
+#    Updated: 2015/06/11 14:53:24 by aratinau         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,7 +70,8 @@ SRC = ft_atoi.c \
 	  ft_lstadd.c \
 	  ft_lstiter.c \
 	  ft_strdel.c \
-	  ft_lstmap.c
+	  ft_lstmap.c \
+	  ../couleurs/couleurs.c
 
 OBJ		= $(SRC:.c=.o)
 	CC		= gcc
