@@ -6,7 +6,7 @@
 /*   By: aratinau <aratinau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/06 15:37:15 by aratinau          #+#    #+#             */
-/*   Updated: 2015/06/12 19:07:43 by aratinau         ###   ########.fr       */
+/*   Updated: 2015/06/15 18:59:16 by aratinau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,5 +85,6 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				clear_screen(void);
 void				color_str(char *s, char *opt);
 void				color_help(void);
+void				color_nbr(int n, char *opt);
 
 #endif
