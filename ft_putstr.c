@@ -6,7 +6,7 @@
 /*   By: aratinau <aratinau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 18:19:28 by aratinau          #+#    #+#             */
-/*   Updated: 2014/11/16 01:36:11 by aratinau         ###   ########.fr       */
+/*   Updated: 2015/10/14 19:59:10 by aratinau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,5 @@
 
 void	ft_putstr(char const *s)
 {
-	int i;
-
-	i = 0;
-	while (s[i] != '\0')
-	{
-		ft_putchar(s[i]);
-		i++;
-	}
+	write(1, s, ft_strlen(s));
 }
