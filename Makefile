@@ -71,7 +71,7 @@ SRC = ft_atoi.c \
 	  ft_lstiter.c \
 	  ft_strdel.c \
 	  ft_lstmap.c \
-	  ../couleurs/couleurs.c
+	  ft_colors.c
 
 OBJ		= $(SRC:.c=.o)
 	CC		= gcc
